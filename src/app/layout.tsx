@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Epilogue } from 'next/font/google'
 
-export const epilogue = Epilogue({ subsets: ['latin'] })
+const epilogue = Epilogue({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "Portofolio",
