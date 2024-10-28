@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
     return (
-        <div className="mt-4 flex grow flex-col gap-2 md:flex-row h-96">
+        <div className="mt-4 flex grow flex-col gap-2 md:flex-row max-h-fit">
             <div className="flex flex-col gap-6 rounded-lg px-6 md:w-1/2 md:px-20">
                 <h3 className="text-xl text-gray-800 font-semibold">Web Developer | Backend Developer</h3>
                 <h1 className="text-5xl text-gray-800 font-black">Yasfa Ainun Abdullah</h1>
