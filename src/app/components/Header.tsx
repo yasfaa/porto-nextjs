@@ -9,9 +9,9 @@ export default function Header() {
                 <p className="text-l text-gray-800 md:text-xl md:leading-normal mb-6">
                     I am a web and backend developer experienced in building applications with Laravel, Next.js, and Vue.js, and familiar with PostgreSQL and MySQL. Open to collaboration on exciting projects — feel free to reach out!
                 </p>
-                <button className="mt-6 self-start btn btn-primary btn-wide">
-                    <a href="#projects">Contact</a>
-                </button>
+                <a href="#contact" className="mt-6 self-start btn btn-primary btn-outline btn-wide btn-lg">
+                    Contact
+                </a>
             </div>
             <div className="flex grow justify-center h-96">
                 <Image
