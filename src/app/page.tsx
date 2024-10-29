@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <div className="min-h-16">
       <Navigation />
-      <div className="about flex min-h-screen flex-col px-2 p-2">
-        <div className="py-6"><Header /></div>
+      <div className="flex min-h-screen flex-col px-2 p-2">
+        <div id="about" className="py-6"><Header /></div>
         <div className="py-6"><Skills /></div>
-        <div className="py-6"><Contact /></div>
+        <div id="contact" className="py-6"><Contact /></div>
       </div>
 
     </div>
