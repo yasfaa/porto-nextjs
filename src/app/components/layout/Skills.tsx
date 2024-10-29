@@ -1,12 +1,3 @@
-import { RiJavascriptFill } from "react-icons/ri";
-import { BiLogoTypescript } from "react-icons/bi";
-import { FaDocker, FaLaravel } from "react-icons/fa6";
-import { SiTailwindcss } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
-import { FaReact } from "react-icons/fa6";
-import { SiMysql } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { LiaVuejs } from "react-icons/lia";
 import { skillLists as skills } from "./data/skill-list";
 
 export default function Skills() {
