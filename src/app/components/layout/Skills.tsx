@@ -7,6 +7,7 @@ import { FaReact } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { LiaVuejs } from "react-icons/lia";
+import { skillLists as skills } from "./data/skill-list";
 
 export default function Skills() {
     return (
@@ -20,46 +21,12 @@ export default function Skills() {
                         <p>The skills & tecnologies i am familiar with:</p>
                     </div>
                     <div className="grid grid-cols-2 gap-y-4 md:grid-cols-4 md:gap-y-8 lg:grid-cols-5 lg:gap-y-12">
-                        <div className="flex flex-col items-center gap-2 px-2">
-                            <RiJavascriptFill className="h-20 w-20 text-yellow-500" />
-                            <p>JavaScript</p>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 px-2">
-                            <BiLogoTypescript className="h-20 w-20 text-blue-500" />
-                            <p>Typescript</p>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 px-2">
-                            <FaLaravel className="h-20 w-20 text-red-500" />
-                            <p>Laravel</p>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 px-2">
-                            <SiTailwindcss className="h-20 w-20 text-teal-500" />
-                            <p>Tailwind CSS</p>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 px-2">
-                            <FaBootstrap className="h-20 w-20 text-purple-500" />
-                            <p>Bootstrap</p>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 px-2">
-                            <FaReact className="h-20 w-20 text-blue-400" />
-                            <p>React</p>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 px-2">
-                            <LiaVuejs className="h-20 w-20 text-green-500" />
-                            <p>Vue.js</p>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 px-2">
-                            <SiMysql className="h-20 w-20 text-blue-600" />
-                            <p>MySQL</p>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 px-2">
-                            <SiPostgresql className="h-20 w-20 text-blue-700" />
-                            <p>PostgreSQL</p>
-                        </div>
-                        <div className="flex flex-col items-center gap-2 px-2">
-                            <FaDocker className="h-20 w-20 text-blue-500" />
-                            <p>Docker</p>
-                        </div>
+                        {skills.map((skill) => (
+                            <div key={skill.name} className="flex flex-col items-center gap-2 px-2">
+                                {skill.icon}
+                                <p>{skill.name}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
