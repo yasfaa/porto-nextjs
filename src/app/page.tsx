@@ -1,6 +1,6 @@
-import Navigation from "./components/Navigation";
-import Header from "./components/Header";
-import Skills from "./components/Skills";
+import Navigation from "./components/layout/Navigation";
+import Header from "./components/layout/Header";
+import Skills from "./components/layout/Skills";
 
 export default function Home() {
   return (

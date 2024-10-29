@@ -5,8 +5,8 @@ export default function Logo() {
     <div
       className="flex flex-row items-center leading-none text-white"
     >
-      <FaFigma className="h-10 w-10" color="black"/>
-      <p className="text-[35px] text-black">Portofolio</p>
+      <FaFigma className="h-7 w-7 md:h-10 md:w-10" color="black" />
+      <p className="text-[25px] md:text-[35px] text-black font-semibold">Portofolio</p>
     </div>
   );
 }
