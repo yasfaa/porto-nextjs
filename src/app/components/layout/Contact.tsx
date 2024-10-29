@@ -9,7 +9,7 @@ export default function Contact() {
     return (
         <div className="mt-4 flex grow flex-col gap-2 md:flex-row max-h-fit ">
             <div className="flex flex-col gap-2 px-6 md:w-1/2 md:px-20">
-                <h3 className="text-xl md:text-2xl text-gray-800 font-semibold">Let's Work Together</h3>
+                <h3 className="text-xl md:text-2xl text-gray-800 font-semibold">Let&#39;s Work Together</h3>
                 <div className="flex gap-3">
                     <a href="https://github.com/yasfaa" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="w-8 h-8" />
