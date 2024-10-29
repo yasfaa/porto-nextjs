@@ -1,6 +1,7 @@
 import Navigation from "./components/layout/Navigation";
 import Header from "./components/layout/Header";
 import Skills from "./components/layout/Skills";
+import Contact from "./components/layout/Contact";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="about flex min-h-screen flex-col px-2 p-2">
         <div className="py-6"><Header /></div>
         <div className="py-6"><Skills /></div>
+        <div className="py-6"><Contact /></div>
       </div>
 
     </div>

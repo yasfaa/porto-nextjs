@@ -1,11 +1,12 @@
 import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
-import { FaDocker, FaLaravel, FaVuejs } from "react-icons/fa6";
+import { FaDocker, FaLaravel } from "react-icons/fa6";
 import { SiTailwindcss } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
+import { LiaVuejs } from "react-icons/lia";
 
 export default function Skills() {
     return (
@@ -44,7 +45,7 @@ export default function Skills() {
                             <p>React</p>
                         </div>
                         <div className="flex flex-col items-center gap-2 px-2">
-                            <FaVuejs className="h-20 w-20 text-green-500" />
+                            <LiaVuejs className="h-20 w-20 text-green-500" />
                             <p>Vue.js</p>
                         </div>
                         <div className="flex flex-col items-center gap-2 px-2">
